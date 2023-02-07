@@ -30,6 +30,7 @@ h1 {
 button {
   background-color:transparent;
   border: none;
+  cursor: pointer;
 }
 
 html {
@@ -90,7 +91,7 @@ a {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  font-size: 2em;
+  font-size: 2rem;
   height: 100vh;
   width: 100%;
   padding: 18.7px 24px;
@@ -119,7 +120,7 @@ a {
 }
 
 .navigation__link {
-  line-height: 2em;
+  line-height: 2rem;
 }
 
 .navigation__item::before {
@@ -199,7 +200,7 @@ a {
 
 .langs__label {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   color: var(--color-black-1);
   cursor: pointer;
 }
@@ -244,14 +245,14 @@ a {
 
 .email {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   margin-bottom: 12px;
 }
 
 .tel {
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.3em;
+  line-height: 1.3rem;
   margin-bottom: 40px;
 }
 
@@ -457,7 +458,7 @@ a {
   overflow: hidden;
   max-height: 106px;
   font-size: 15px;
-  line-height: 1.2em;
+  line-height: 1.2rem;
   letter-spacing: 0px;
   gap: 20px;
 }
@@ -507,10 +508,10 @@ a {
   flex-grow: 1;
 }
 
-.h3 {
+.h2 {
   color: var(--color-gray-1);
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -782,7 +783,7 @@ a {
 
   .information__p {
     padding-top: 2px;
-    line-height: 1.4em;
+    line-height: 1.4rem;
     font-size: 14px;
   }
 
